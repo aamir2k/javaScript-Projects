@@ -1,0 +1,453 @@
+nav{
+    /* width: 1294px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-name{
+    width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29.3px;
+    color: #000; 
+}
+.nav-menu{
+    width: 50%;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav-menu ul a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+.button{
+    width: 115px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+}
+.hero{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(179, 232, 190, 0.93) 21.27%, rgba(227, 227, 227, 0) 86.66%), url("images/Rectangle\ 61.png");
+    background-size: cover;
+    border-radius: 10px;
+    height: 400px;
+    position: relative;
+}
+.hero-text{
+    padding: 60px;
+}
+.hero-heading{
+    width: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0px;
+}
+.hero-para{
+    width: 350px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;    
+}
+.hero-card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color:white ;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -50px;
+    transform: translate(10.5%,18%);
+    box-shadow: 0px 10px 30px gray;
+}
+
+.hero-c1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-c1 h2{
+    width: 12%;
+}
+.search{
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+    padding: 5px;
+    box-shadow: 0px 5px 5px gray;
+}
+.hero-c2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-c2-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-c2-icons img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+.hero-c2-icons p{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    text-align: center;
+    margin: 0px;
+}
+.hero-c2-p{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px;
+}
+.hero-c2-text{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
+.hero-c2-p{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.hero-c2-p img{
+    width: 20px;
+    height: 20px;
+}
+.hero-c2-p p{
+    color: white;
+    margin: 0px;
+}
+.c2-images{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: end;
+}
+.c2-images img{
+    /* padding: 0px 15px; */
+    
+    width: 50px;
+    height:50px;
+}
+.additional{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+.booking-section{
+    position: relative;
+}
+.color-div{
+    height: 200px;
+    width: 100%;
+    padding: auto;
+    background-color: rgb(214, 241, 241);
+    position: absolute;
+    top: 210px;
+    z-index: -1;
+    border-radius: 10px;
+    
+}
+.color-div img{
+    position: absolute;
+    bottom: -16%;
+    left: 50%;
+    transform: translateX(-60%);
+}
+.booking-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+   
+    /* z-index: 1; */
+    /* background-image: url("images/Rectangle\ 87.png"); */
+           
+}
+
+.booking-house{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 330px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.b-h-img img{
+    width: 300px;
+    height: 250px;
+}
+.b-h-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.b-h-t-img img{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-size: cover;
+    padding: 10px;
+    box-shadow: 0px 0px 5px gray;
+
+}
+.b-h-t-img img{
+    width: 30px;
+    height: 30px;
+}
+.resort{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    gap: 20px;
+}
+.resort-c1 h2{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.resort-c1-icons{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.resort-c1-icons img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #d8e8fd;
+}
+.resort-c1-icons p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin: 8px;
+}
+
+.resort-c2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.resorts-images .outer-image{
+    width: 400px;
+    position: relative;
+    z-index: -1;
+}
+.resorts-images .inner-image{
+    width: 100px;
+    position: absolute;
+    transform: translate(-230%, 100%); 
+}
+.v-resort-sm-img{
+    position: absolute;
+    transform: translate(0%,550%);
+}
+.v-resort-sm-img img{
+    width: 50px;
+    padding: 0px 10px;
+}
+.resort-c2-para{
+    position: absolute;
+    transform: translate(0%,680%);
+}
+.images-and-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 120px;
+}
+.images-gallery{
+    position: relative;
+    width: 70%;
+}
+.card{
+    z-index: -1;
+}
+.card-img{
+    height: 230px;
+}
+
+.card-icons img{
+    width: 20px;
+    height: 20px;
+}
+.card-img-up{
+    height: 230px;
+    padding: 0px 10px;
+    transform: translate(0%,-20%);
+}
+.card-des{
+    background-color: white;
+    width: 220px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(69%,109%);
+    /* top: 97px;
+    right: 32%; */
+    box-shadow: 0px 5px 20px gray;
+
+}
+.card-detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border-bottom: 2px solid gray;
+
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card-btn{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid orange;
+    color: white;
+    margin-top: 8px;
+}
+.description{
+    width: 50%;
+}
+.description p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.airline-color{
+    background-color: #d6f1f1;
+    /* width: 1440px; */
+    padding: 0px 0px;
+}
+.airlines-section{
+    position: relative;
+    padding: 5px 120px;
+    background-color: white;
+    box-shadow: 0px 5px 20px gray;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+.airlines-list{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.airlines-list p{
+    margin: 0px;
+}
+.a-list-1{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 20px ;
+}
+.a-list{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   padding: 10px 0px;
+}
+.a-image{
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    transform: translate(0%,0%);
+}
+.a-image img{
+   height: 350px;
+}
+.register-section{
+    margin: 0px auto;
+}
+.register-section h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+.register-section p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.email{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 212, 212);
+}
+.email-btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    /* gap: 30px; */
+    padding: 0px 120px;
+}
+.footer-sections{
+    width: 25%;
+    padding-right: 60px;
+}
+.footer-sections p{
+    margin: 0px;
+    color: gray;
+}
+
+
