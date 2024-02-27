@@ -1,0 +1,292 @@
+.main-container{
+    /* padding: 0px 40px; */
+}
+.header-with-detail{
+    background-image: url("images/sean-kong-r2WhdAwJPxM-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.main-header{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-menu{
+    display: flex;
+    color: black;
+}
+.header-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.header-menu ul li{
+    
+}
+.header-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header-menu ul li a:hover{
+    color: white;
+}
+
+.header-btn{
+    display: flex;
+    gap: 30px;
+}
+.header-btn .login-btn{
+    color: black;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+.header-btn .joinus-btn{
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+}
+.hero{
+    padding: 0px 40px;
+    width: 30%;
+}
+.hero .hero-wellcome{
+    color: blueviolet;
+    font-size: 25px;
+}
+.hero .hero-detail{
+    color: white;
+    font-size: 50px;
+}
+.hero .hero-text{
+    color: white;
+    font-size: 25px;
+}
+.hero-btn{
+    display: flex;
+    gap: 10px;
+}
+.hero-btn .joinus-btn{
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+}
+.hero-btn .Learn-btn{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.video-lecture-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 44, 48);
+    padding: 30px 40px;
+}
+.video-lecture-detail{
+    color: white;
+    width: 50%;
+}
+.v-l-tittle{
+    font-size: 50px;
+    /* text-align: center; */
+}
+.v-l-detail{
+    font-size: 20px;
+    width: 70%;
+}
+.video-lecture-section a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.video-lecture-image img{
+    width: 600px;
+    height: 400px;
+}
+.quality-education{
+    background-color: rgb(44, 44, 48);
+    padding: 30px 40px;
+}
+.education-tittle{
+    color: white;
+    font-size: 50px;
+}
+.education-para{
+    color: white;
+    font-size: 20px;
+    width: 40%;
+}
+.education-blocks{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px 0px;
+}
+.block-1{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding:  10px 40px;
+}
+.block-icon {
+    font-size: 40px;
+    padding-top: 10px;
+}
+.block-title{
+    font-size: 20px;
+}
+.block-2{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    position: relative;
+    padding:  10px 40px
+}
+.block-3{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    color: white;
+    padding:  10px 40px
+}
+.block-4{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    position: relative;
+    padding:  10px 40px
+}
+.popular-course-section{
+    display: flex;
+    gap:120px;
+    align-items: center;
+    background-color: rgb(44, 44, 48);
+    padding: 60px 40px;
+}
+.popular-course-section-detail{
+    color: white;
+    width: 50%;
+}
+.p-c-tittle{
+    font-size: 50px;
+    margin: 0px;
+}
+.p-c-detail{
+    font-size: 20px;
+}
+.video-lecture-section a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.video-lecture-image img{
+    width: 500px;
+    height: 300px;
+}
+.teacher-profiles{
+    background-color: rgb(44, 44, 48);
+    padding: 30px 40px;
+}
+.teacher-tittle{
+    color: white;
+    font-size: 50px;
+}
+.teacher-para{
+    color: white;
+    font-size: 20px;
+    width: 40%;
+}
+.teachers-profile-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+.icons{
+    color: yellow;
+}
+.profile-1{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+.profile-1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile-2{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+
+}
+.profile-2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.course-subscribe-section{
+    background-color: rgb(44, 44, 48);
+    padding: 30px 40px;
+    
+}
+.courses{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.c-s-detail{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-input{
+    width: 400px;
+    padding: 10px 15px;
+}
+.subscribe-btn{
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 1px solid blueviolet;
+    
+}
+.footer{
+    background-color: rgb(44, 44, 48);
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 25px;
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
