@@ -1,0 +1,375 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    color: rgb(89, 90, 90);
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+
+}
+header h2{
+    text-align: center;
+    color: #EA8AFC;
+    text-decoration: none;
+}
+ul { 
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(121, 116, 116);
+}
+a:hover{
+    color: #EA8AFC;
+}
+.wellcome{
+    position: relative;
+    font-family: sans-serif;
+
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.intro-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set text color to white or your desired color */
+}
+.intro-short-text{
+    font-size: 54px;
+    color: black;
+    font-weight: 600;
+    line-height: 81px;
+}
+.intro-text-detail{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color:black;
+}
+.downlaod-resume{
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    width: 200px;
+    background-color: #B636FF;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #B636FF;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.about-me{
+    grid-column: span 2;
+    text-align: center;
+    color: rgb(67, 72, 92);
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(229, 235, 242);
+}
+.paragraph{
+    grid-column: span 1;
+    padding: 0px 80px ;
+    color: rgb(60, 66, 88);
+}
+
+
+.short-paragraph-about-me{
+    color: rgb(60, 66, 88);
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-bottom: 43px;
+
+}
+.detail-paragraph-about-me{
+    color: rgb(153, 159, 179);
+    font-size: 16px;
+    line-height: 28px;
+    border-bottom: 1px solid #999FB3;
+    padding-bottom: 85px;
+}
+
+.self-image{
+    width: 400px;
+    height: 400px;
+    padding: 55px 100px; 
+}
+.contact-info{
+    display: flex;
+}
+.contact-info h3{
+    padding-left: 80px;
+}
+.contact-info p{
+    padding-left: 80px;
+}
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    background-color: #F9FBFD;
+}
+.edu-tag{
+    grid-column: span 3;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(67, 72, 92);
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(229, 235, 242);
+}
+.matirc{
+    padding-left: 80px;
+}
+.passing-year{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(67, 72, 92);
+}
+.school-name{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgb(153, 159, 179);
+
+}
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.experience-tag{
+    flex: 1 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(67, 72, 92);
+    /* padding: 30px; */
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(229, 235, 242) ;
+}
+.current-job-details{
+    display: flex;
+    padding: 100px;
+}
+.current-job{
+    text-align: center;
+    width: 50%;
+    margin-left: 190px;
+}
+.year{
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+.current-job-detail{
+    text-align: left;
+    width: 50%;
+    color: rgb(153, 159, 179);
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0px;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.profile-tag{
+    flex: 1 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(103, 106, 129);
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    border-bottom: 1px solid #999FB3;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.icon{
+    width: 291.5px;
+    height: 150px;
+    color: rgb(103, 106, 129);
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.icon i{
+    margin-top: 35px;
+}
+.icon:hover{
+    background-color: #B636FF;
+    color: white;
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.portfolio-tag{
+    display: flex;
+    text-align: center;    
+}
+
+.image-middle{
+    grid-column: span 1;
+    
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr;
+}
+.portfolio .image-1{
+    grid-column: 1 / 2;
+}
+.portfolio .image-middle{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+.portfolio img{
+    width: 100%;
+    height: 100%;
+}
+.contact-me{
+    background-color: #F9FBFD;
+ 
+}
+.contact-me-tag{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    border-bottom: 1px solid rgb(229, 235,  242);
+    padding: 30px;
+}
+.contact-detail{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.form #name{
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 150px;
+    height: 5px;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.form #Email{
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 150px;
+    height: 5px;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+.form #Subject{
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 356px;
+    height: 5px;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.form #comment{
+    width: 390px;
+    height: 160px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: sans-serif;
+    /* padding: 25px; */
+    border: 1px solid #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.form #button{
+    background-color: #9f00ff;
+    border: 1px solid #9f00ff;
+    height: 50px;
+    margin-top: 3px;
+    color: whitesmoke;
+    width: 395px;
+    font-size: 15px;
+}
+.contact-detail .contact-information{
+    font-family: sans-serif;    
+    margin-left: 100px;
+}
+.contact-detail .contact-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999FB3;
+}
+h3{
+    margin-top: 0px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
