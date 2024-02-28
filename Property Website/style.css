@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    height: 378px;
+    width: 100%;
+}
+.left-header-section{
+    position: absolute;
+    left: 00px;
+    width: 70%;
+    /* background-image: url("images/house.jpg");
+    background-size: cover; */
+    background-color: #18242c ;
+    padding: 40px 40px;
+}
+
+.header-text{
+    padding: 0px 60px;
+}
+.left-header-section .header-text h2{
+    font-size: 20px;
+    color: #bc8854;
+    line-height: 40px;
+}
+.left-header-section .header-text h1{
+    font-size: 40px;
+    color: white;
+    line-height: 30px;
+}
+.left-header-section .header-text .header-btn{
+    background-color: #bc8854;
+    width: 250px;
+    height: 40px;
+    margin: 40px 0px;
+}
+.header-btn button{
+    background-color: #bc8854;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #bc8854;
+}
+
+.header-partners h2 {
+    display: flex;
+    flex-direction: row;
+    color: #9e9ba2;
+  }
+.header-partners h2:before, .header-partners h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: 12px;
+  }
+.header-partners h2:before {
+    margin-right: 10px
+  }
+.header-partners h2:after {
+    margin-left: 10px
+  }
+.header-partners img{
+    background-color: #9e9ba2;
+    margin: 10px 55px;
+}
+.right-header-section{
+    position: absolute;
+    right: 00px;
+    background-color: #101d2c;
+    width: 30%;
+    padding: 0px 0px;
+}
+.right-header-section .profile-list-heading{
+        font-size: 20px;
+        color: #bc8854;
+        line-height: 40px;
+        text-align: center;
+}
+.profile-detail{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px 0px; */
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+    gap: 20px;
+
+}
+.profile  h2{
+    font-size: 15px;
+}
+.profile p{
+    font-size: 8px;
+    color: #9e9ba2;
+}
+#hero{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    padding: 60px 60px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 40px; */
+}
+.hero-detail-1{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+}
+.hero-icon{
+    position: absolute;
+    left: 10px;
+    font-size: 30px;
+    color: #bc8854;
+}
+.hero-detail-para-1{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+.hero-detail-heading{
+    font-size: 20px;
+    width: 100%;
+}
+.hero-heading-detail-para-1{
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    color: #9e9ba2;
+}
+.hero-detail-2{
+    position: absolute;
+    left: 90px;
+    width: 350px;
+    height: 250px;
+}
+.hero-detail-3{
+    position: absolute;
+    left: 900px;
+    width: 350px;
+    height: 250px;
+}
+.hero-detail-4{
+    position: absolute;
+    left: 90px;
+    top: 250px;
+    width: 350px;
+    height: 250px;
+}
+.hero-detail-5{
+    position: absolute;
+    left: 900px;
+    top: 250px;
+    width: 350px;
+    height: 250px;
+}
+.hero-detail-6{
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    width: 350px;
+    height: 250px;
+}
+#decision{
+    position: relative;
+    top: 460px;
+    display: flex;
+    
+}
+.decision-parar-class{
+    
+}
+
+.decision-image .img-3{
+    position: absolute;
+    top: 0px;
+    height: 450px;
+    width: 650px;
+}
+.decision-image .img-2{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    height: 250px;
+    width: 450px;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.decision-para{
+    position: absolute;
+    left: 50%;
+    width: 400px;
+}
+.decision-para H2{
+    color: #bc8854;
+    line-height: 60px;
+}
+.decision-para h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.decision-para p{
+    color: #9e9ba2;
+    padding: 20px 0px;
+
+}
+.btn{
+    padding: 20px 0px;
+}
+.decision-btn{
+    background-color: #bc8854;
+    text-transform: uppercase;
+    width: 220px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #bc8854;
+}
+#house-list{
+    position: relative;
+    top: 950px;
+    left: 90PX;
+}
+.house-list{
+    position: absolute;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.house-1{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    background-color: #9e9ba2;
+}
+.house-btn{
+    position: absolute;
+    top:145px;
+    left: 15px;
+    border: #101d2c;
+    background-color: #18242c;
+    color: white;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+}
+.icon-1{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 220px;
+    left: 15px;
+}
+.icon-2{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 220px;
+    left: 140px;
+}
+.icon-3{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 300px;
+    left: 15px;
+}
+.icon-4{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+.contact-btn{
+    position: absolute;
+    top:360px;
+    border: #101d2c;
+    background-color: #bc8854;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
+.house-2{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 305px;
+    background-color: #9e9ba2;
+}
+.house-3{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 615px;
+    background-color: #9e9ba2;
+}
+.house-4{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 920px;
+    background-color: #9e9ba2;
+}
+.house-5{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    background-color: #9e9ba2;
+    top: 450px;
+}
+.house-6{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 305px;
+    background-color: #9e9ba2;
+    top: 450px;
+}
+.house-7{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 615px;
+    background-color: #9e9ba2;
+    top: 450px;
+}
+.house-8   {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 920px;
+    background-color: #9e9ba2;
+    top: 450px;
+}
+footer{
+    position: absolute;
+    top: 2200px;
+    background-color: #101d2c;
+    color: white;
+    height: 200px;
+    width: 100%;
+
+}
+.footer-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+.footer-1 p a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.footer-2{
+    text-align: center;
+    
+}
